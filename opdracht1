@@ -32,7 +32,7 @@
         projectteams aan opdrachten voor echte projectpartners.
   		</section>
   		<section> 
-        De vakken [link: opbouw studieprogramma] gaan over interactie & strategie, -design, -
+        De vakken <a href="">opbouw studieprogramma</a> gaan over interactie & strategie, -design, -
         techniek en -cultuur. In de vakken leren studenten te denken en te handelen als een
         ontwerper. Hiervoor leren ze naast ‘ontwerpen’ ook ‘maken’, ‘onderzoeken’,
         ‘projectmanagen’ en ‘adviseren’. Studenten kunnen met behulp van keuzevakken, stages
@@ -79,8 +79,8 @@
         prototyping in het curriculum en wil studenten hierin helpen en stimuleren.
       </section>
         <section>Bij CMD Amsterdam staat de mens centraal, niet alleen als eindgebruiker van een
-        ontwikkelde toepassing maar ook als mens met sociaal-maatschappelijke context; [link:
-        Opbouw studieprogramma]
+        ontwikkelde toepassing maar ook als mens met sociaal-maatschappelijke context; link:<a href="">Opbouw studieprogramma</a>.
+        
       </section> 
         <section>CMD Amsterdam heeft een kernprogramma dat alle studenten moeten volgen. De
         propedeuse is opgebouwd uit 12 kernvakken en 3 projecten. In de jaar 2 en 3 kunnen
@@ -100,7 +100,7 @@
         naar hebt gedaan. Dit kan uit eigen beweging of bij een bedrijf.
       </section>
       <section>
-        Opbouw studieprogramma [link: opbouw studieprogramma]
+        <a href="">Opbouw studieprogramma</a> 
       </section>
       <h2>Beroepen</h2>
       <h3>Waar leiden we voor op?</h3>
@@ -122,11 +122,11 @@
         <section>
           Uitstroomberoepen:
           <ol>
-            <li>Frontend developer [link: beroepen #frontend developer]</li>
-            <li>Visual designer [link: beroep #visual designer]</li>
-            <li>Interaction designer [link: beroep #interaction designer]</li>
-            <li>Content manager [link: beroep #content manager]</li>
-            <li>Project manager [link: beroep #project manager]</li>
+            <li><a href="">Frontend developer</a> </li>
+            <li><a href="">Visual designer</a></li>
+            <li><a href="">Interaction designer</a></li>
+            <li><a href="">Content manager</a></li>
+            <li><a href="">Project manager</a></li>
           </ol>
         </section>    
   	</article>
