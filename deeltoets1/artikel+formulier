@@ -137,3 +137,142 @@
   	<footer></footer>
   </body>
 </html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page title</title>
+    <meta charset="utf-8" />    
+	<meta name="description" content="Test" />    
+	<meta name="author" content="Tijn van Veen" />    
+	<meta name="keywords" content="Tijn, test" />
+  </head>
+  <body>
+  	<header>
+  		<nav>
+  			<ul>
+          <li><a href="index.html">Home </a></li>
+          <li><a href="aanmelden.html"> Aanmelden</a></li>
+  			</ul>
+  		</nav>
+  	</header>
+  	<h1>Aanmelden</h1>
+    <section>
+      Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+      Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+      lopen de studenten stage, in het tweede en afstudeerjaar.
+    </section>
+    <section>
+      CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.
+    </section>
+    <section>
+      Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+      Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+      Voor vragen of opmerkingen kunt u contact [link: contact] met ons opnemen: <br>
+    </section> 
+    <form>
+      <fieldset>
+        <legend>Aanmeldprocedure</legend> 
+        <label for="name">Naam</label>
+        <input type="text" id="name" name="name" placeholder="Voornaam"><br  />
+
+        <label for="bedrijf">Bedrijf</label>
+        <input type="text" id="bedrijf" name="bedrijf" placeholder="Naam bedrijf"><br  />
+
+        <label for="adres">Adres</label>
+        <input type="text" id="adres" name="adres" placeholder="alexanderplein"><br  />
+
+        <label for="postcode">Postcode</label>
+        <input type="text" id="postcode" name="postcode" placeholder="1234 AB"><br  />
+
+        <label for="plaats">Plaats</label>
+        <input type="text" id="plaats" name="plaats" placeholder="Amsterdam"><br  />
+
+        <label for="telefoon">Telefoon</label>
+        <input type="tel" id="telefoon" name="telefoon" placeholder="telefoonnummer"><br  />
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="name@hotmail.com"><br />
+
+        <label for="keuze">
+          Ik wil mij aanmelden:
+        </label>
+        <select id = "keuze">
+          <option value = "bedrijf">Voor een bedrijf</option>
+          <option value = "stagebedrijf">Als stagebedrijf</option>
+        </select>
+      </fieldset>
+    </form>
+    <br>
+    <h1> Project </h1>
+
+    <form>
+      <fieldset> 
+      <legend>Project</legend>
+        <label for="titel">Titel</label>
+        <input type="text" id="titel" name="titel" placeholder="Titel"><br  />
+
+        <label for="opdrachtomschrijving">Opdrachtomschrijving</label>
+        <textarea name="opdrachtomschrijving" id="opdrachtomschrijving"></textarea><br>
+
+        <label for="doelgroepomschrijving">Doelgroepomschrijving</label>
+        <textarea name="doelgroepomschrijving" id="doelgroepomschrijving"></textarea><br>
+
+        <label for="doelstelling">Doelstelling/ intentie van het project</label>
+        <textarea name="doelstelling" id="doelstelling"></textarea><br>
+
+        <label for="looptijd">Looptijd</label> van
+        <input type="date" name="begindatum" id="looptijd" > tot <input type="date" name="einddatum" ><br  />
+
+        <label for="deadline1">Deadline</label>
+        <input type="date" name="deadline1" id="deadline1"><br  />
+
+        <label for ="geschikt">
+          Geschikt voor
+        </label>
+        <select id="geschikt">
+          <option value = "eerstejaars">eerstejaars studenten</option>
+          <option value = "tweedejaars">tweedejaars studenten</option>
+          <option value = "derdejaars">derdejaars studenten</option>
+          <option value = "afstudeer">afstudeerstudenten</option>
+          <option value = "onbekend">onbekend</option>
+        </select><br>
+
+        <label for="opmerking">Opmerking</label>
+        <textarea name="opmerking" id="opmerking"></textarea><br>
+      </fieldset>
+    </form>
+
+    <h1> Stage </h1>
+
+    <form>
+      <fieldset> 
+      <legend>Stage</legend>
+
+        <label for = "geschiktvoor">
+          Geschikt voor
+        </label>
+        <select id = "geschiktvoor" >
+          <option value = "tweedejaars">tweedejaars studenten</option>
+          <option value = "afstudeer">afstudeerstudenten</option>
+          <option value = "onbekend">onbekend</option>
+        </select><br>
+
+        <label for = "stageperiode">Hoe lang is de stage</label> 
+
+          <input type = "radio" id="stageperiode" name = "10weken" value = "10weken" checked = "checked" />
+          <label for = "10weken">10 weken</label>
+          <input type = "radio" id="10weken" name = "20weken" value = "20weken" />
+
+          <label for = "20weken">20weken</label><br>
+          <input type = "radio" id="20weken" name = "20weken" value = "20weken" />
+
+        <label for="deadline">Begin Datum</label>
+        <input type="date" id="deadline" name="deadline"/> <br />
+
+      </fieldset>
+    </form>
+  	<aside></aside>
+  	<footer></footer>
+  </body>
+</html>
